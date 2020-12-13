@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32d28d4-dac2-42dd-a690-b32a9bab5546" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components/ArticleImage/ArticleImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components/ArticlePreview/ArticlePreivew.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components/Button/ButtonLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components/Icon/Icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components/ProductPreview/ProductPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/components/Title/Title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/calcReadTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/gtag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CustomLink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/TestComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/constant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/articles/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles/[slug].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/mdxComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mdxComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +31,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/styles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/components" />
@@ -93,7 +69,7 @@
       <updated>1607788130516</updated>
       <workItem from="1607788131665" duration="1902000" />
       <workItem from="1607802968804" duration="6136000" />
-      <workItem from="1607843320167" duration="3420000" />
+      <workItem from="1607843320167" duration="3650000" />
     </task>
     <servers />
   </component>
