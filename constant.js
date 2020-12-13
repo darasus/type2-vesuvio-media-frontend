@@ -1,9 +1,7 @@
-import path from 'path'
+const path = require('path')
 
-export const currentWebsite = 'test-website-1'
-export const WEBSITES_PATH = path.join(
-  process.cwd(),
-  'websites',
-  currentWebsite
-)
-export const ARTICLES_PATH = path.join(WEBSITES_PATH, 'articles')
+const currentWebsite = 'test-website-1'
+const WEBSITES_PATH = path.join(process.cwd(), 'websites', currentWebsite)
+const ARTICLES_PATH = path.join(WEBSITES_PATH, 'articles')
+
+module.exports = { currentWebsite, WEBSITES_PATH, ARTICLES_PATH }

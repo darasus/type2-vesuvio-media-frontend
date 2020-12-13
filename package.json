@@ -19,10 +19,14 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "app-root-path": "^3.0.0",
     "autoprefixer": "^10.1.0",
+    "isomorphic-fetch": "^3.0.0",
+    "next-compose-plugins": "^2.2.1",
     "polished": "^4.0.5",
     "postcss": "^8.2.1",
     "prettier": "^2.2.1",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "text2png": "^2.3.0"
   }
 }

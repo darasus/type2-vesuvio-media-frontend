@@ -10,8 +10,8 @@ export const Footer = ({ articles = [] }) => {
               ARTICLES
             </span>
             <nav className="list-none">
-              {articles?.map(article => (
-                <div key={article.id}>
+              {articles?.map((article, i) => (
+                <div key={i}>
                   <Link href={`/${article.slug}`}>
                     <a
                       className="text-gray-600 hover:text-gray-800"

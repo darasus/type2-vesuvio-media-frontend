@@ -22,24 +22,22 @@ const App = ({ Component, pageProps }) => {
     <>
       <Head>
         <link rel="shortcut icon" href="/images/favicon.png" />
-        <title>{`Home | ${pageProps?.site?.title}`}</title>
-        {pageProps?.primaryColor && (
-          <style>
-            {`
+        <title>{`Home | ${process.env.TITLE}`}</title>
+        <style>
+          {`
             :root {
-              --primary-color-100: ${darken(-0.4, pageProps.primaryColor)};
-              --primary-color-200: ${darken(-0.3, pageProps.primaryColor)};
-              --primary-color-300: ${darken(-0.2, pageProps.primaryColor)};
-              --primary-color-400: ${darken(-0.1, pageProps.primaryColor)};
-              --primary-color-500: ${darken(0, pageProps.primaryColor)};
-              --primary-color-600: ${darken(0.1, pageProps.primaryColor)};
-              --primary-color-700: ${darken(0.2, pageProps.primaryColor)};
-              --primary-color-800: ${darken(0.3, pageProps.primaryColor)};
-              --primary-color-900: ${darken(0.4, pageProps.primaryColor)};
+              --primary-color-200: ${darken(-0.3, process.env.PRIMARY_COLOR)};
+              --primary-color-100: ${darken(-0.4, process.env.PRIMARY_COLOR)};
+              --primary-color-300: ${darken(-0.2, process.env.PRIMARY_COLOR)};
+              --primary-color-400: ${darken(-0.1, process.env.PRIMARY_COLOR)};
+              --primary-color-500: ${darken(0, process.env.PRIMARY_COLOR)};
+              --primary-color-600: ${darken(0.1, process.env.PRIMARY_COLOR)};
+              --primary-color-700: ${darken(0.2, process.env.PRIMARY_COLOR)};
+              --primary-color-800: ${darken(0.3, process.env.PRIMARY_COLOR)};
+              --primary-color-900: ${darken(0.4, process.env.PRIMARY_COLOR)};
             }
           `}
-          </style>
-        )}
+        </style>
         {(process.env.NO_INDEX || pageProps?.site?.isNoIndex) && (
           <meta name="robots" content="noindex, nofollow" />
         )}
