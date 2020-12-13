@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32d28d4-dac2-42dd-a690-b32a9bab5546" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdBoldOblique.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdBook.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdBookOblique.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdCondExtraBoldObl.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdCondensed.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdCondensedBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdCondensedBoldObl.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdCondensedExtraBd.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdCondensedLight.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdCondensedLightObl.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdCondensedOblique.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdExtraBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdExtraBoldOblique.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdHeavy.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdHeavyOblique.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdLight.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdLightOblique.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdMedium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/futura/FuturaStdMediumOblique.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/deploy-all-sites.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/generate-images.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websites/test-website-1/site.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/constant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +69,7 @@
       <workItem from="1607788131665" duration="1902000" />
       <workItem from="1607802968804" duration="6136000" />
       <workItem from="1607843320167" duration="4191000" />
-      <workItem from="1607854972674" duration="4111000" />
+      <workItem from="1607854972674" duration="4275000" />
     </task>
     <servers />
   </component>
