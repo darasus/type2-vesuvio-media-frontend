@@ -1,18 +1,17 @@
-import fs from "fs";
-import matter from "gray-matter";
-import hydrate from "next-mdx-remote/hydrate";
-import renderToString from "next-mdx-remote/render-to-string";
-import Link from "next/link";
-import path from "path";
-import Layout from "../../components/Layout";
-import { components } from "../../utils/mdxComponents";
-import { ARTICLES_PATH } from "../../constant";
+import fs from 'fs'
+import matter from 'gray-matter'
+import hydrate from 'next-mdx-remote/hydrate'
+import renderToString from 'next-mdx-remote/render-to-string'
+import Link from 'next/link'
+import path from 'path'
+import { components } from '../../utils/mdxComponents'
+import { ARTICLES_PATH } from '../../constant'
 
 export default function PostPage({ source, frontMatter }) {
-  const content = hydrate(source, { components });
+  const content = hydrate(source, { components })
 
   return (
-    <Layout>
+    <div>
       <header>
         <nav>
           <Link href="/">
@@ -27,28 +26,15 @@ export default function PostPage({ source, frontMatter }) {
         )}
       </div>
       <main>{content}</main>
-
-      <style jsx>{`
-        .post-header h1 {
-          margin-bottom: 0;
-        }
-
-        .post-header {
-          margin-bottom: 2rem;
-        }
-        .description {
-          opacity: 0.6;
-        }
-      `}</style>
-    </Layout>
-  );
+    </div>
+  )
 }
 
 export const getStaticProps = async ({ params }) => {
-  const articleFilePath = path.join(ARTICLES_PATH, `${params.slug}.mdx`);
-  const source = fs.readFileSync(articleFilePath);
+  const articleFilePath = path.join(ARTICLES_PATH, `${params.slug}.mdx`)
+  const source = fs.readFileSync(articleFilePath)
 
-  const { content, data } = matter(source);
+  const { content, data } = matter(source)
 
   const mdxSource = await renderToString(content, {
     components,
@@ -58,26 +44,26 @@ export const getStaticProps = async ({ params }) => {
       rehypePlugins: [],
     },
     scope: data,
-  });
+  })
 
   return {
     props: {
       source: mdxSource,
       frontMatter: data,
     },
-  };
-};
+  }
+}
 
 export const getStaticPaths = async () => {
   const paths = fs
     .readdirSync(ARTICLES_PATH)
     // Remove file extensions for page paths
-    .map((path) => path.replace(/\.mdx?$/, ""))
+    .map(path => path.replace(/\.mdx?$/, ''))
     // Map the path into the static paths object required by Next.js
-    .map((slug) => ({ params: { slug } }));
+    .map(slug => ({ params: { slug } }))
 
   return {
     paths,
     fallback: false,
-  };
-};
+  }
+}

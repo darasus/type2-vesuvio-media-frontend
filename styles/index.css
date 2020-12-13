@@ -1,0 +1,67 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+::-moz-selection {
+    color: white;
+    background: var(--primary-color-400);
+}
+
+::selection {
+    color: white;
+    background: var(--primary-color-400);
+}
+
+h1, h2, h3 {
+    @apply font-medium;
+    @apply mt-6;
+    @apply mb-2;
+}
+
+h1 {
+    @apply text-5xl;
+}
+
+h2 {
+    @apply text-4xl;
+}
+
+h3 {
+    @apply text-3xl;
+}
+
+h4 {
+    @apply text-2xl;
+}
+
+h5 {
+    @apply text-2xl;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: theme('padding.4');
+    @apply mb-2;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: theme('padding.4');
+}
+
+p {
+    @apply mb-2;
+}
+
+.content {
+    @apply overflow-auto;
+}
+
+.content p {
+    display: flex;
+}
+
+.content a {
+    color: var(--primary-color-500);
+    text-decoration: none;
+}

@@ -33,21 +33,21 @@ When using `next-mdx-remote`, you can pass custom components to the MDX renderer
 For example, here's how you can change `getStaticProps` to conditionally add certain components:
 
 ```js
-import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic'
 
 // ...
 
 export async function getStaticProps() {
-  const { content, data } = matter(source);
+  const { content, data } = matter(source)
 
   const components = {
     ...defaultComponents,
     SomeHeavyComponent: /<SomeHeavyComponent/.test(content)
-      ? dynamic(() => import("SomeHeavyComponent"))
+      ? dynamic(() => import('SomeHeavyComponent'))
       : null,
-  };
+  }
 
-  const mdxSource = await renderToString(content, { components });
+  const mdxSource = await renderToString(content, { components })
 }
 ```
 

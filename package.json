@@ -5,9 +5,11 @@
     "dev": "next",
     "dev:watch": "next-remote-watch websites",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format:prettier": "prettier --write ."
   },
   "dependencies": {
+    "clsx": "^1.1.1",
     "gray-matter": "^4.0.2",
     "next": "latest",
     "next-mdx-remote": "^1.0.0",
@@ -17,6 +19,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.2"
   }
 }
