@@ -1,6 +1,6 @@
 const path = require('path')
 
-const currentWebsite = 'test-website-1'
+const currentWebsite = 'site-id-1'
 const WEBSITES_PATH = path.join(process.cwd(), 'websites', currentWebsite)
 const ARTICLES_PATH = path.join(WEBSITES_PATH, 'articles')
 

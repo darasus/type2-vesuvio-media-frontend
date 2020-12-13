@@ -25,12 +25,12 @@ export default class MyDocument extends Document {
         lang="en"
       >
         <Head>
-          {isProduction && process.env.GA_TRACKING_ID && (
+          {isProduction && process.env.ga && (
             <React.Fragment>
               <script
                 async
                 defer
-                src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+                src={`https://www.googletagmanager.com/gtag/js?id=${process.env.ga}`}
               />
               <script
                 dangerouslySetInnerHTML={{
@@ -39,7 +39,7 @@ export default class MyDocument extends Document {
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
 
-                    gtag('config', '${process.env.GA_TRACKING_ID}', {
+                    gtag('config', '${process.env.ga}', {
                       page_path: window.location.pathname,
                     });
                   `,

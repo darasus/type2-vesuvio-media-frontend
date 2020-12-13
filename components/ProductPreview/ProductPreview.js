@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import { event } from '../../../utils/gtag'
+import { event } from '../../utils/gtag'
 import { ButtonLink } from '../Button/ButtonLink'
 
 export const ProductPreview = ({ product, className, data }) => {

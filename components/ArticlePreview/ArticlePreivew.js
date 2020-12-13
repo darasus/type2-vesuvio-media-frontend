@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import clsx from 'clsx'
-import { calcReadTime } from '../../../utils/calcReadTime'
+import { calcReadTime } from '../../utils/calcReadTime'
 
 export const ArticlePreview = ({ article, className }) => {
   return (

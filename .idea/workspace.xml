@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="c32d28d4-dac2-42dd-a690-b32a9bab5546" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components/ArticleImage/ArticleImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticleImage/ArticleImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components/ArticlePreview/ArticlePreivew.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticlePreview/ArticlePreivew.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components/Button/ButtonLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/ButtonLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components/Icon/Icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icon/Icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components/ProductPreview/ProductPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductPreview/ProductPreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components/Title/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Title/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websites/test-website-1/articles/article-name-1.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/websites/site-id-1/articles/article-name-1.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websites/test-website-1/articles/article-name-2.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/websites/site-id-1/articles/article-name-2.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websites/test-website-1/home.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/websites/site-id-1/home.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websites/test-website-1/site.json" beforeDir="false" afterPath="$PROJECT_DIR$/websites/site-id-1/site.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +73,7 @@
       <recent name="$PROJECT_DIR$/utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/websites/test-website-1" />
     </key>
   </component>
@@ -69,7 +88,7 @@
       <workItem from="1607788131665" duration="1902000" />
       <workItem from="1607802968804" duration="6136000" />
       <workItem from="1607843320167" duration="4191000" />
-      <workItem from="1607854972674" duration="4275000" />
+      <workItem from="1607854972674" duration="5576000" />
     </task>
     <servers />
   </component>

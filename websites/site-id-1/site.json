@@ -1,6 +1,8 @@
 {
   "id": 1,
   "title": "Website title",
+  "seoTitle": "Website seo title",
+  "seoDescription": "Website seo description",
   "primary_color": "orange",
   "is_published": true,
   "domain": "example.com",
